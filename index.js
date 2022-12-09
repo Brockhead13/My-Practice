@@ -37,3 +37,39 @@ dogBreed.innerHTML = "<p> pitbull </p>"
 let candy = document.getElementById("candy")
 
 candy.innerHTML = "<p> m&m </p>"
+
+const inputBtn = document.getElementById("input-btn")
+
+function btn() {
+inputBtn.textContent
+}
+
+//use innerhtml to render black! paragraph inside the div favorite-color
+
+const favoriteColor = document.getElementById("favorite-color")
+
+favoriteColor.innerHTML = "<p> black </p>"
+
+cosnt container = document.getElementById("container")
+
+container.innerHTML = "<button> Buy! </button>"
+
+
+//create a array with 6 items in the array make a for loop and stop on the fourth item of the array
+let car = ["Corvette", "Lambo", "Ferrari", "GTR", "Vector", "McClearn"]
+
+for (let i = 0; i < 5; i++) {
+
+    console.log(car[i])
+}
+
+
+//use innerhtml to render text.content of your choice paragraph inside the div id of your choice
+// then create a function and nest it inside a function call the function
+
+let cars = document.getElementById("corvette")
+
+function cars() {
+
+cars.innerHTML = "<p> corvette </p>"
+}
